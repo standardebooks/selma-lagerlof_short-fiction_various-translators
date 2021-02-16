@@ -52,6 +52,9 @@
 		<!-- Christ Legends and Other Stories (1904, translated 1908) -->
 		<dc:source>https://www.gutenberg.org/ebooks/44818</dc:source>
 		<dc:source>https://archive.org/details/cu31924026328736</dc:source>
+		<!-- The Girl from the Marsh Croft (1908, translated 1910) -->
+		<dc:source>https://www.gutenberg.org/ebooks/41414</dc:source>
+		<dc:source>https://archive.org/details/girlfrommarshcr00howagoog</dc:source>
 		<meta property="se:production-notes">En herrgårdssägen (published 1899) was translated as The Tale of a Manor and Other Sketches (C. Field, 1922), but I cannot find either scans or transcriptions.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
@@ -95,10 +98,13 @@
 		<dc:contributor id="transcriber-4">Roger Frank</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Frank, Roger</meta>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-5">The Online Distributed Proofreading Team</dc:contributor>
-		<meta property="file-as" refines="#transcriber-5">Online Distributed Proofreading Team, The</meta>
-		<meta property="se:url.homepage" refines="#transcriber-5">https://pgdp.net</meta>
+		<dc:contributor id="transcriber-5">Mary Meehan</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Meehan, Mary</meta>
 		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-6">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-6">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-6">https://pgdp.net</meta>
+		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
 		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
 		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
@@ -120,10 +126,13 @@
 		<item href="text/a-christmas-guest.xhtml" id="a-christmas-guest.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/a-fallen-king.xhtml" id="a-fallen-king.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/a-story-from-halstanas.xhtml" id="a-story-from-halstanas.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-story-from-jerusalem.xhtml" id="a-story-from-jerusalem.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/among-the-climbing-roses.xhtml" id="among-the-climbing-roses.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/bethlehems-children.xhtml" id="bethlehems-children.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/body.xhtml" id="body.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/downie.xhtml" id="downie.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/foreword.xhtml" id="foreword.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/his-mothers-portrait.xhtml" id="his-mothers-portrait.xhtml" media-type="application/xhtml+xml"/>
@@ -137,27 +146,35 @@
 		<item href="text/robin-redbreast.xhtml" id="robin-redbreast.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/saint-veronicas-kerchief.xhtml" id="saint-veronicas-kerchief.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/santa-caterina-of-siena.xhtml" id="santa-caterina-of-siena.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-airship.xhtml" id="the-airship.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-brothers.xhtml" id="the-brothers.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-emperors-vision.xhtml" id="the-emperors-vision.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-empresss-money-chest.xhtml" id="the-empresss-money-chest.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-fishermans-ring.xhtml" id="the-fishermans-ring.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-flight-into-egypt.xhtml" id="the-flight-into-egypt.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-girl-from-the-marsh-croft.xhtml" id="the-girl-from-the-marsh-croft.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-holy-night.xhtml" id="the-holy-night.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-inscription-on-the-grave.xhtml" id="the-inscription-on-the-grave.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-kings-grave.xhtml" id="the-kings-grave.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-legend-of-reor.xhtml" id="the-legend-of-reor.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-legend-of-the-birds-nest.xhtml" id="the-legend-of-the-birds-nest.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-legend-of-the-christmas-rose.xhtml" id="the-legend-of-the-christmas-rose.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-musician.xhtml" id="the-musician.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-outlaws.xhtml" id="the-outlaws.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-peace-of-god.xhtml" id="the-peace-of-god.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-romance-of-a-fishermans-wife.xhtml" id="the-romance-of-a-fishermans-wife.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-sacred-flame.xhtml" id="the-sacred-flame.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-silver-mine.xhtml" id="the-silver-mine.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-spirit-of-fasting-and-petter-nord.xhtml" id="the-spirit-of-fasting-and-petter-nord.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-story-of-a-country-house.xhtml" id="the-story-of-a-country-house.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-story-of-a-story.xhtml" id="the-story-of-a-story.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-wedding-march.xhtml" id="the-wedding-march.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-wise-mens-well.xhtml" id="the-wise-mens-well.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncle-reuben.xhtml" id="uncle-reuben.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/valdemar-atterdag.xhtml" id="valdemar-atterdag.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/why-the-pope-lived-to-be-so-old.xhtml" id="why-the-pope-lived-to-be-so-old.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
@@ -199,6 +216,16 @@
 		<itemref idref="robin-redbreast.xhtml"/>
 		<itemref idref="our-lord-and-saint-peter.xhtml"/>
 		<itemref idref="the-sacred-flame.xhtml"/>
+		<itemref idref="the-girl-from-the-marsh-croft.xhtml"/>
+		<itemref idref="the-silver-mine.xhtml"/>
+		<itemref idref="the-airship.xhtml"/>
+		<itemref idref="the-wedding-march.xhtml"/>
+		<itemref idref="the-musician.xhtml"/>
+		<itemref idref="the-legend-of-the-christmas-rose.xhtml"/>
+		<itemref idref="a-story-from-jerusalem.xhtml"/>
+		<itemref idref="why-the-pope-lived-to-be-so-old.xhtml"/>
+		<itemref idref="the-story-of-a-story.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
