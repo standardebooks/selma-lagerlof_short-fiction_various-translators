@@ -6,22 +6,30 @@ blockquote[xml|lang]{
 	font-style: italic;
 }
 
-[epub|type~="z3998:hymn"] p{
+[epub|type~="z3998:hymn"] p,
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:hymn"] p + p{
+[epub|type~="z3998:hymn"] p + p,
+[epub|type~="z3998:song"] p + p,
+[epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:hymn"] p > span{
+[epub|type~="z3998:hymn"] p > span,
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:verse"] p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
-[epub|type~="z3998:hymn"] p > span + br{
+[epub|type~="z3998:hymn"] p > span + br,
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
@@ -29,6 +37,52 @@ p span.i2{
 	text-indent: -1em;
 	padding-left: 3em;
 }
+
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	-epub-hyphens: none;
+}
+
+[epub|type~="epigraph"] em,
+[epub|type~="epigraph"] i{
+	font-style: normal;
+}
+
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
+/* End all epigraphs */
+
+header [epub|type~="epigraph"] cite{
+	font-variant: small-caps;
+}
+
+/* Epigraphs in section headers */
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+section > header [epub|type~="epigraph"] + *{
+	margin-top: 3em;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
 
 #the-inscription-on-the-grave blockquote{
 	font-variant: all-small-caps;
