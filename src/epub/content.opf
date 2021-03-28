@@ -36,9 +36,10 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85121813</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A collection of Selma Lagerlöf’s translated short stories, ordered by date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/selma-lagerlof"&gt;Selma Lagerlöf&lt;/a&gt; was a Swedish author, who, starting in 1891 with &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/selma-lagerlof/the-story-of-gosta-berling/pauline-bancroft-flach"&gt;The Story of Gösta Berling&lt;/a&gt;&lt;/i&gt;, wrote a series of novels and short stories that soon garnered both national and international praise. This lead to her winning the 1909 Nobel Prize for Literature “in appreciation of the lofty idealism, vivid imagination, and spiritual perception that characterize her writings,” the first woman to do so. She happily wrote both for adults and children, but the same feeling of romantic infatuation with the spiritual mysteries of life runs through all of her work, often anchored to her childhood home of Värmland in middle Sweden.&lt;/p&gt;
+			&lt;p&gt;The collection brings together the available public domain translations into English, in chronological order of their original publication. The subjects are many, and include Swedish folk-stories, Biblical legends, and tales of robbers, kings and queens, fishermen, and saints. They were translated by Pauline Bancroft Flach, Jessie Brochner, and Velma Swanston Howard.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<!-- Invisible Links (1894, translated 1899) -->
