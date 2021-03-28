@@ -65,16 +65,16 @@
 		<meta property="file-as" refines="#author">Lagerlöf, Selma</meta>
 		<meta property="se:name.person.full-name" refines="#author">Selma Ottilia Lovisa Lagerlöf</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Selma_Lagerl%C3%B6f</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n82143184</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n82143184</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator-1">Pauline Bancroft Flach</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Flach, Pauline Bancroft</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-1">https://id.loc.gov/authorities/names/n96085662</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/n96085662</meta>
 		<meta property="display-seq" refines="#translator-1">1</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-2">Jessie Brochner</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Brochner, Jessie</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-2">https://id.loc.gov/authorities/names/no2015111378</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/no2015111378</meta>
 		<meta property="display-seq" refines="#translator-2">2</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
@@ -88,7 +88,7 @@
 		<meta property="file-as" refines="#artist">Larsson, Carl</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Carl Olof Larsson</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Carl_Larsson</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n79106337</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79106337</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Nicole Apostola</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Apostola, Nicole</meta>
