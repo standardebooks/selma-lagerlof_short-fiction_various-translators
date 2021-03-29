@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/selma-lagerlof/short-fiction/pauline-bancroft-flach_jessie-brochner_velma-swanston-howard</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-03-29T21:03:24Z</dc:date>
+		<meta property="dcterms:modified">2021-03-29T21:03:24Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -56,9 +56,9 @@
 		<!-- The Girl from the Marsh Croft (1908, translated 1910) -->
 		<dc:source>https://www.gutenberg.org/ebooks/41414</dc:source>
 		<dc:source>https://archive.org/details/girlfrommarshcr00howagoog</dc:source>
-		<meta property="se:production-notes">En herrgårdssägen (published 1899) was translated as The Tale of a Manor and Other Sketches (C. Field, 1922), but I cannot find either scans or transcriptions.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">"En herrgårdssägen" (published 1899) was translated as "The Tale of a Manor and Other Sketches" (C. Field, 1922), but I cannot find either scans or transcriptions.</meta>
+		<meta property="se:word-count">267199</meta>
+		<meta property="se:reading-ease.flesch">80.21</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Selma_Lagerl%C3%B6f#Works_by_Selma_Lagerl%C3%B6f</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/selma-lagerlof_short-fiction_pauline-bancroft-flach_jessie-brochner_velma-swanston-howard</meta>
 		<dc:creator id="author">Selma Lagerlöf</dc:creator>
@@ -119,6 +119,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
