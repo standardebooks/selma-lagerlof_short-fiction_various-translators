@@ -55,9 +55,6 @@ p span.i2{
 }
 /* End all epigraphs */
 
-header [epub|type~="epigraph"] cite{
-	font-variant: small-caps;
-}
 
 /* Epigraphs in section headers */
 article > header [epub|type~="epigraph"]{
