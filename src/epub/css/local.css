@@ -55,7 +55,6 @@ p span.i2{
 }
 /* End all epigraphs */
 
-
 /* Epigraphs in section headers */
 article > header [epub|type~="epigraph"]{
 	display: inline-block;
