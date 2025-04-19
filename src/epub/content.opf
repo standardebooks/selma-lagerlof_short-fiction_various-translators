@@ -106,8 +106,8 @@
 		<dc:contributor id="transcriber-5">Mary Meehan</dc:contributor>
 		<meta property="file-as" refines="#transcriber-5">Meehan, Mary</meta>
 		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-6">The Online Distributed Proofreading Team</dc:contributor>
-		<meta property="file-as" refines="#transcriber-6">Online Distributed Proofreading Team, The</meta>
+		<dc:contributor id="transcriber-6">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-6">Distributed Proofreaders</meta>
 		<meta property="se:url.homepage" refines="#transcriber-6">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
