@@ -72,18 +72,15 @@
 		<dc:contributor id="translator-1">Pauline Bancroft Flach</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Flach, Pauline Bancroft</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/n96085662</meta>
-		<meta property="display-seq" refines="#translator-1">1</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-2">Jessie Brochner</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Brochner, Jessie</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/no2015111378</meta>
-		<meta property="display-seq" refines="#translator-2">2</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-3">Velma Swanston Howard</dc:contributor>
 		<meta property="file-as" refines="#translator-3">Howard, Velma Swanston</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-3">http://id.loc.gov/authorities/names/n85237306</meta>
-		<meta property="display-seq" refines="#translator-3">3</meta>
 		<meta property="role" refines="#translator-3" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-3" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Carl Larsson</dc:contributor>
