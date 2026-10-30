@@ -82,6 +82,7 @@
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-3">Velma Swanston Howard</dc:contributor>
 		<meta property="file-as" refines="#translator-3">Howard, Velma Swanston</meta>
+		<link href="https://en.wikipedia.org/wiki/Velma_Swanston_Howard" refines="#translator-3" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n85237306.html" refines="#translator-3" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-3" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-3" scheme="marc:relators">trl</meta>
